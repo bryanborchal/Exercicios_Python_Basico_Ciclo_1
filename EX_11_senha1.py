@@ -15,3 +15,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+senha = input('Digite a senha: ')
+if senha == 1234567:
+    print("Senha correta")
+else:
+    print("Senha incorreta")

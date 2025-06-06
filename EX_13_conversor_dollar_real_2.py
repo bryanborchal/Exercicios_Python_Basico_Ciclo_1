@@ -25,3 +25,17 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('Escolha uma opção: ')
+print('1 - Dollar para Real')
+print('2 - Real para dollar')
+opcao = int(input('Digite a opção: '))
+if opcao == 1:
+    cotacao_dollar = float(input('Informe a cotação do Dollar atual: '))
+    quantidade_de_dolares = float(input('Informe a quantidade de dólares: '))
+    conversao = cotacao_dollar*quantidade_de_dolares
+    print(f'O valor em reais é de R${conversao:.2f}')
+elif opcao == 2:
+    cotacao_dollar_2 = float(input('Informe a cotação do Dollar atual: '))
+    quantidade_de_reais = float(input('Informe a quantidade de reais: '))
+    conversao_real = quantidade_de_reais/cotacao_dollar_2
+    print(f'O valor em dólares é ${conversao_real:.2f}')

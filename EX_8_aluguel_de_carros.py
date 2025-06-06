@@ -10,3 +10,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+dias_alugado = int(input('Por quantos dias o carro foi alugado: '))
+km_rodados = float(input('Quantos km o carro rodou: '))
+preco = dias_alugado*60
+preco_por_km = km_rodados*0.15
+preco_total = preco+preco_por_km
+print(f'Você andou {km_rodados}km por {dias_alugado} dias, então o preço a pagar é R${preco_total}')

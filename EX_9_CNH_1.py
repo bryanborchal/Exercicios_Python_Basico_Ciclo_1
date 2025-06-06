@@ -14,3 +14,5 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+idade = int(input('Digite a sua idade: '))
+print(idade >=18)

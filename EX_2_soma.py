@@ -6,5 +6,10 @@
 # A soma entre 10 e 30 é: 40
 
 
-# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO ----------------------------------------------------------
 
+a = int(input("Digite um número: "))
+b = int(input("Digite outro número: "))
+s = a+b
+print('A soma entre',a,'e',b,'é:',s)
+print(f'A soma entre {a} e {b} é: {s}')

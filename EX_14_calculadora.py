@@ -52,3 +52,37 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
+print('|',30*'-','|')
+print('| Calculadora')
+print('|',30*'-','|')
+print('| 1 - Soma')
+print('| 2 - Subtração')
+print('| 3 - Multiplicação')
+print('| 4 - Divisão')
+print('|',30*'-','|')
+opcoes = int(input('| Escolha uma das opções: '))
+
+if opcoes == 1:
+    numero_1 = float(input('| Digite o primeiro número: '))
+    numero_2 = float(input('| Digite o segundo número: '))
+    soma = numero_1+numero_2
+    print(f'| O resultado é: {soma}')
+elif opcoes == 2:
+    numero_3 = float(input('| Digite o primeiro número: '))
+    numero_4 = float(input('| Digite o segundo número: '))
+    subtracao = numero_3-numero_4
+    print(f'| O resultado é: {subtracao}')
+elif opcoes == 3:
+    numero_5 = float(input('| Digite o primeiro número: '))
+    numero_6 = float(input('| Digite o primeiro número: '))
+    multiplicacao = numero_5*numero_6
+    print(f'| O resultado é: {multiplicacao}')
+elif opcoes == 4:
+    numero_7 = float(input('| Digite o primeiro número: '))
+    numero_8 = float(input('| Digite o primeiro número: '))
+    divisao = numero_7/numero_8
+    print(f'| o resultado é: {divisao}')
+else:
+    print('| ERRO. Escolha uma opção válida.')
+
